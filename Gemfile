@@ -1,4 +1,5 @@
-source 'http://rubygems.org'
+# A sample Gemfile
+source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'tux'
@@ -8,7 +9,9 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 
-group :test do
+group :test do 
   gem 'rspec'
   gem 'rack-test'
 end
+
+
